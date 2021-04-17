@@ -1,23 +1,52 @@
+<!DOCTYPE html>
 <html>
-    <head><title>javascript arrays</title></head>
-    <body>
-        <h1>open console</h1>
-        <script>
-            console.log("Hi I am console screen");
-           
-            var number_1=12;
-            var number_2=3;
-            console.log(number_1+number_2);
-            var number_3=4;
-            var number_4=5;
-            console.log(number_3-number_4);
-            var number_5=6;
-            var number_6=7;
-            console.log(number_5*number_6);
-            var number_7=8;
-            var number_8=9;
-            console.log(number_7/number_8);
+<head>
+	<title>C80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
 
-        </script>
-    </body>
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	List of the students in my class
+</h3>
+
+<div id="rows">
+<span>1</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_1">
+<br>
+
+<span>2</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_2">
+<br>
+
+<span>3</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_3">
+<br>
+
+<span>4</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_4">
+</div>
+
+<button onclick="submit()" id="submit_button">
+	Submit
+</button>
+
+<div id="display_name_with_commas">
+</div>
+
+<hr>
+
+<div id="display_name_without_commas">
+</div>
+
+
+<button onclick="sorting()" id="sort_button">
+	Sort
+</button>
+</center>
+
+</script>
+</body>
 </html>
